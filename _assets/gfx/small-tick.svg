@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="7px" viewBox="0 0 9 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.00025,14.00025 C7.74425,14.00025 7.48825,13.90225 7.29325,13.70725 L5.29325,11.70725 C4.90225,11.31625 4.90225,10.68425 5.29325,10.29325 C5.68425,9.90225 6.31625,9.90225 6.70725,10.29325 L8.00025,11.58625 L12.29325,7.29325 C12.68425,6.90225 13.31625,6.90225 13.70725,7.29325 C14.09825,7.68425 14.09825,8.31625 13.70725,8.70725 L8.70725,13.70725 C8.51225,13.90225 8.25625,14.00025 8.00025,14.00025" id="path-1"></path>
+    </defs>
+    <g id="Glyph-/-Tick-Small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-5.000000, -7.000000)">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#FFFFFF" xlink:href="#path-1"></use>
+    </g>
+</svg>

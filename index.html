@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Baby Sleep Visualiser</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Cache-control" content="public" />
+	<meta name="robots" content="no-index"/>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<meta name="viewport" content="width=320,initial-scale=1.0" />
+	<link href="_assets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+	<div id="dropzone"><span>Drop here!</span></div>
+	
+	<div id="inputOuter" class="content">
+		<form id="inputInner">
+			
+			<div class="row duration">
+				<div class="center">
+					<p>How many days do you want to see?</p>
+					<select id="days" name="days">
+						<option value="1">Most recent day</option>
+						<option value="7" selected="selected">Last 7 days</option>
+						<option value="10">10 days</option>
+						<option value="30">30 days</option>
+						<option value="all">All time</option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="row files">
+				<div class="col file">
+					<input type="file" onchange="handleFiles(this.files)" accept=".csv">
+				</div>
+				<div class="col or">
+					<p>or</p>
+				</div>
+				<div class="col dropbox" id="dropbox">
+				</div>
+			</div>
+
+		</form>
+	</div>
+
+	<div id="output" class="content">
+		<!-- Magic -->
+	</div>
+
+	<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="u8b6nwzvk3n8nxe"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="_assets/js/read-csv.js"></script>
+
+</body>
+</html>
